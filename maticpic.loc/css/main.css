@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #fff;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    height: 100px;
+    
+}
+
+.header-logo--link {
+    font-size: 40px;
+    font-weight: 900;
+    color: #10c9c3;
+    padding-left: 2%;
+    text-decoration: none;
+}
+
+.header-logo--link::before {
+    content: "MATIC";
+    color: #191919;
+}
+
+.header-logo--link:hover {
+    color: #191919;
+}
+
+.header-logo--link:hover:before {
+    color: #10c9c3;
+}
+
+.header-menu {
+    width: 100%;
+    text-align: right;
+
+}
+
+.header-menu--nav {
+    list-style: none;
+    
+}
+
+.nav-item {
+    display: inline;
+    text-transform: uppercase;
+    padding-right: 2%;
+    
+}
+
+.nav-item--link {
+    color: #191919;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    transition: border 0.4s ease-out;
+    padding-bottom: 10px;
+    padding-top: 10px;  
+}
+
+.nav-item--link:hover {
+    color: #10c9c3;
+    border-bottom: #191919 1px solid;
+    border-top: #191919 1px solid; 
+}
+
+.header-title {
+    width: 100%;
+    height: 300px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title--wrapper {
+    width: 650px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header-title--name {
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.38px;
+}
+
+.header-title--text {
+    margin-top: 3%;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.09px;
+}
+
+
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.main-tales {
+    width: 25%;
+    height: 300px;
+    position: relative;   
+    opacity: 0.75;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.main-tales > img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-tales::before {
+    position:absolute;
+    font-family: "Font Awesome 5 Free";
+    font-size: 80px;
+    color: #10c9c3;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.main-tales:hover {
+    opacity: 1;
+}
+
+.main-tales:hover::before {
+    content: "\f06e";
+}
+
+.clients, .works {
+    font-size: 24px;
+    font-weight: 900;
+    color: #10c9c3;
+}
+
+footer {
+height: 284px;
+background-color: #141414;
+}
