@@ -138,7 +138,7 @@ header {
 
 .main-tales::before {
     position:absolute;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-size: 80px;
     color: #10c9c3;
     top: 50%;
