@@ -373,7 +373,7 @@ footer {
 }
 
 .footer-copyright--name {
-    color: #ffffff;
+    color: #10c9c3;
     font-size: 18px;
     font-weight: 500;
     line-height: 72px;
@@ -440,6 +440,7 @@ footer {
 .footer-social {
     list-style: none;
     text-align: center;
+    font-size: 25px;
 }
 
 .footer-social--item {
@@ -449,7 +450,6 @@ footer {
 
 .footer-social--icon {
     color: #bcbcbc;
-    width: 50px;
     text-decoration: none;
     transition: all 0.4s ease-in; 
 }
