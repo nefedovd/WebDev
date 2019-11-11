@@ -37,3 +37,11 @@ $({numberValue: currentNumber}).animate({numberValue: 675}, {
         $('.clients').text(Math.ceil(this.numberValue)); 
     }
 });
+
+var $target = $('.main-tales');
+var hold = 500;
+
+$.each($target,function(i,t){
+     var $this = $(t);
+     setTimeout(function(){ $this.show('normal'); },i*hold);
+});

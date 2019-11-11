@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!--Font-->
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Nunito+Sans|Work+Sans&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 
 
     <title>MATICPIC | About</title>
@@ -21,7 +20,7 @@
     <header>
         <div class="header-container">
             <div class="header-logo">
-                <a class="header-logo--link" href="/">PIC</a>
+                <a class="header-logo--link" href="index.html">PIC</a>
             </div>
             <div class="header-menu">
                 <ul class="header-menu--nav">
@@ -59,8 +58,36 @@
     </div>
 
     <div class="aboutme">
-        <div class="aboutme-photo"><img src="img/portfolio/thumb-2.jpg" alt=""></div>
-        <div class="aboutme-text">text about me</div>
+        <div class="aboutme-photo"><img src="img/about/me.jpg" alt=""></div>
+        <div class="aboutme-text">
+            <p class="aboutme-text--header">About me</p>
+            <p class="aboutme-text--description">Unlike hiring a seperate graphic designer or photographer, I provide a single combined vision that will ensure both your design and photography needs are reflected in their best light. Available also for stand-alone graphic design or photography projects, I always strive to offer an affordable and professional service.</p>
+        </div>
+    </div>
+
+    <aside class="modal" id="modal">
+        <div class="modal-header">
+            <h2>Contact With Me</h2>
+        </div>
+        <div class="modal-content">
+            <form action="">
+                <p><input type="text" name="name" id="contactForm" placeholder="enter your name"></p>
+                <p><input type="email" name="email" id="contactForm" placeholder="enter your email"></p>
+                <p><textarea name="message" id="contactForm" cols="30" rows="10" placeholder="your message"></textarea>
+                <p><input type="button" value="SUBMIT" class="submit_btn"></p>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#contact-container" class="btn">CLOSE</a>
+        </div>
+    </aside>
+
+    <div class="contact-container" id="contact-container">
+        <p class="need-a-project--header">Need a Project?</p>
+        <p class="need-a-project--description">Let us know what you're looking for in an agency. We'll take a look and see 
+                if this could be the start of something beautiful.</p>
+        <a class="need-a-project--btn" href="#modal">let’s talk</a>
+        
     </div>
 
     
@@ -76,10 +103,10 @@
                 +44 987 123 456 </div>
             <div class="footer-menu">
                 <ul class="footer-menu--nav">
-                    <li class="footer-menu--item"><a class="footer-menu--link" href="/">home</a></li>
-                    <li class="footer-menu--item"><a class="footer-menu--link" href="about.html">about</a></li>
-                    <li class="footer-menu--item"><a class="footer-menu--link" href="#!">works</a></li>
-                    <li class="footer-menu--item"><a class="footer-menu--link" href="#!">contact</a></li>
+                    <li><a class="footer-menu--link" href="index.html">home</a></li>
+                    <li><a class="footer-menu--link" href="about.html">about</a></li>
+                    <li><a class="footer-menu--link" href="#!">works</a></li>
+                    <li><a class="footer-menu--link" href="#!">contact</a></li>
                 </ul>
             </div>
             <div class="footer-social">
@@ -96,6 +123,6 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="js/count.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
