@@ -86,7 +86,7 @@ header {
     border-top: #191919 1px solid; 
 }
 
-.active {
+.nav-item--link-active {
     border-bottom: #10c9c3 2px solid;
     border-top: #10c9c3 2px solid; 
 }
@@ -276,7 +276,7 @@ header {
     animation: fade-in 1s linear; /* IE 10+, Fx 29+ */  
 }
 
-.main-tales > img {
+.main-tales > a > img {
     width: 100%;
     height: 100%;
 }
@@ -293,7 +293,7 @@ header {
     opacity: 1;
 }
 
-.main-tales:hover > img {
+.main-tales:hover > a > img {
     opacity: 0.5;
 }
 
@@ -350,7 +350,191 @@ header {
 /* //Need a Project AboutPage */
 
 
+/* Works Page*/
+.works {
+    display: flex;
+}
 
+.works-description {
+    width: 50%;
+    height: 570px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.works-desc-container {
+    width: 438px;
+}
+
+.works-desc-container > h2 {
+    color: #171717;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0.38px;
+}
+
+.works-desc-container > p {
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.08px;
+    margin-top: 50px;
+}
+
+.work-detail {
+    list-style: none;
+    padding: 50px 0 0 0;
+}
+
+.work-client, .work-date {
+    padding-bottom: 20px;
+}
+
+.work-client:before {
+    content: 'Client: ';
+    color: #171717;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08px;
+}
+
+.work-date:before {
+    content: 'Date: ';
+    color: #171717;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08px;
+}
+
+.work-share--icon {
+    color: #171717;
+    font-size: 20px;
+    padding-left: 5px;
+    transition: color 0.2s ease;
+}
+
+.work-share--icon:hover {
+    color: #10c9c3;
+}
+
+.work-share:before {
+    content: 'Share: ';
+    color: #171717;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08px;
+}
+
+
+.works-photos {
+    width: 50%;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.gallery-container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(16, 201, 195, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .sliderImage {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #10c9c3;
+    padding: 2px 16px;
+    margin-bottom: 4px;
+    color: white;
+  }
+
+  .row {
+      display: flex;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* 4 columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    margin-right: 4px;
+  }
+
+  .column:last-child {
+    margin-right: 0;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+    width: 100%;
+  }
+  
+  .S-active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+/* //Works Page*/
 
 
 /* Footer */
@@ -556,3 +740,5 @@ textarea {
     text-decoration: none;
 }
 /* //MODAL */
+
+
