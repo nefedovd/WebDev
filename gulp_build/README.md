@@ -9,9 +9,11 @@
 > > >   /content.less 
 > > >   /footer.less  
 > > >   /media.less 
+> >
 > >   /js 
 > > >   /script.js  
 > > >   /additional.js  
+>
 >   ./gulpfile.js  
 >   ./package.json  
 >   ./index.html  
@@ -21,6 +23,7 @@
 >   ./assets  
 > >   /css  
 > > >   /main.css 
+> >
 > >   /js 
 > > >   /main.js  
 
