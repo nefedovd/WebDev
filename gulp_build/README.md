@@ -1,4 +1,15 @@
 # Сборка проекта на Gulp 4
+Включает в себя:
+
+    - browser-sync
+    - del
+    - gulp
+    - gulp-autoprefixer
+    - gulp-clean-css
+    - gulp-concat
+    - gulp-less
+    - gulp-sourcemaps
+    - gulp-uglify
 
 ## Структура файлов и папок:
 
